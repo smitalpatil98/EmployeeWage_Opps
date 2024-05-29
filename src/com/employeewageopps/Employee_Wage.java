@@ -1,7 +1,7 @@
 //Refactor the Code to write a Class Method to Compute
 //Employee Wage - Use Class Method and Class Variables
 package com.employeewageopps;
-public class UC_7
+public class Employee_Wage
 {
       int FULL_TIME_EMP=1;
       int PART_TIME_EMP =2;
@@ -11,7 +11,7 @@ public class UC_7
       int EMP_WORK_DAYS = 20;
       int EMP_WORK_HOUR = 100;
 
-      public int calculateUC_7()
+      public int calculate()
       {
           int emp_wage = 0;
           int total_wage = 0;
@@ -43,7 +43,7 @@ public class UC_7
       }
     public static void main(String[] args)
     {
-        UC_7 emp = new UC_7();
-        System.out.println(emp.calculateUC_7());
+        Employee_Wage emp = new Employee_Wage ();
+        System.out.println(emp.calculate());
     }
 }
